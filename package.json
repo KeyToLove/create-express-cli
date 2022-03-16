@@ -1,0 +1,33 @@
+{
+  "name": "create-express-cli",
+  "version": "0.0.3",
+  "description": "cli for create express-app",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./bin/index.js",
+  "files": [
+    "bin",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "create-express-cli"
+  },
+  "keywords": [
+    "express",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyToLove/create-express-cli"
+  },
+  "author": "coderEDC<coderEDC@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "execa": "^6.1.0",
+    "inquirer": "^8.2.1",
+    "json-templater": "^1.2.0",
+    "prettier": "^2.5.1"
+  }
+}
